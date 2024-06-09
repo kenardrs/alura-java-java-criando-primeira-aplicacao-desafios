@@ -1,7 +1,7 @@
 package br.com.alura.desafios.curso3.exceptions;
 
 public class ConsultaViaCEPException extends RuntimeException {
-    private String mensagem;
+    private final String mensagem;
 
     public ConsultaViaCEPException(String mensagem) {
         this.mensagem = mensagem;
